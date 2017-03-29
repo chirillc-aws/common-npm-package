@@ -1,4 +1,4 @@
-module.exports = (event, context) => {
+module.exports.httpProxy = (event, context) => {
 
     var http = require("http");
     var querystring = require('querystring');
